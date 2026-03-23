@@ -103,6 +103,7 @@ class ChessBoardGraph {
 
     console.log(`You made it in ${path.length - 1} moves! Here's your path:`);
     path.forEach((p) => console.log(p));
+    return path;
   }
 }
 
@@ -110,4 +111,3 @@ const board = new ChessBoardGraph();
 
 board.makeAdjacencyMatrix();
 board.makeAdjacencyList();
-board.knightMoves([3, 3], [4, 3]);
