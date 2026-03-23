@@ -70,3 +70,5 @@ BFS processes nodes in order of their distance from the start. When the target i
 To make the algorithm easier to interact with and understand, a beautiful web-based UI has been added. You can simply open `index.html` in any modern web browser to visually place the start and end positions, and watch the knight animate through the shortest path!
 
 **Note on Authorship:** The core algorithmic graph logic (`knightTravails.js`) was written entirely by me as part of the learning project. The interactive user interface (`index.html`, `ui.js`, and `style.css`) was generated with the assistance of AI strictly for visualization and demonstration purposes.
+
+preview:https://yass-gr.github.io/Project-Graphs/
